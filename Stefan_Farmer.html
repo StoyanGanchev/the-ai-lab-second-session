@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stefan Farmer | Personal Website</title>
+    <meta
+      name="description"
+      content="A personal website for Stefan Farmer, a 14-year-old part-time developer from England and Belarus."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Stefan Farmer home">
+        <span class="brand-mark">SF</span>
+        <span>Stefan Farmer</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#story">Story</a>
+        <a href="#work">Work</a>
+        <a href="#notes">Notes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">14-year-old part-time developer</p>
+          <h1 id="hero-title">Hi, I'm Stefan Farmer.</h1>
+          <p class="hero-text">
+            I'm from England and Belarus, and I build digital projects while
+            learning fast, experimenting often, and turning ideas into real
+            things people can use.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">See Work</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="portrait-shell" aria-label="Abstract portrait illustration">
+          <img src="assets/personal-portrait.svg" alt="" />
+        </div>
+      </section>
+
+      <section id="story" class="section split">
+        <div>
+          <p class="section-kicker">About Me</p>
+          <h2>A young developer with roots in England and Belarus.</h2>
+        </div>
+        <div class="story-copy">
+          <p>
+            I'm 14, curious about technology, and already building as a
+            part-time developer. I like taking an idea from a rough thought to
+            something that works on screen.
+          </p>
+          <p>
+            Being from England and Belarus gives me a wide view of the world,
+            and coding gives me a practical way to shape it. This site is a
+            place for my projects, ideas, and the things I'm learning next.
+          </p>
+        </div>
+      </section>
+
+      <section class="section values" aria-labelledby="values-title">
+        <div class="section-heading">
+          <p class="section-kicker">What I Bring</p>
+          <h2 id="values-title">Learning by building, one project at a time.</h2>
+        </div>
+        <div class="value-grid">
+          <article class="value-card">
+            <span class="value-number">01</span>
+            <h3>Problem Solving</h3>
+            <p>I enjoy breaking tricky ideas down until the next step is clear.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-number">02</span>
+            <h3>Development</h3>
+            <p>I build websites and digital projects with care and curiosity.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-number">03</span>
+            <h3>Growth</h3>
+            <p>I keep learning, testing, improving, and trying new ideas.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2 id="work-title">Projects worth talking about.</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div>
+              <p class="project-type">No. 1</p>
+              <h3>ASCEND</h3>
+            </div>
+            <p>
+              An Invincible-style game on Roblox, built around powerful action,
+              bold characters, and a superhero-inspired world.
+            </p>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">No. 2</p>
+              <h3>Racingrounds</h3>
+            </div>
+            <p>
+              A Roblox racing game focused on speed, competition, and fun
+              track-based gameplay.
+            </p>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">No. 3</p>
+              <h3>BLUE Industries</h3>
+            </div>
+            <p>
+              A 3D-printing business focused on turning practical ideas and
+              custom designs into real physical products.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="notes" class="section notes" aria-labelledby="notes-title">
+        <div>
+          <p class="section-kicker">Notes</p>
+          <h2 id="notes-title">Current fascinations.</h2>
+        </div>
+        <ul class="note-list">
+          <li>Building websites that feel clean, fast, and useful.</li>
+          <li>Learning new coding skills through practical projects.</li>
+          <li>Combining English and Belarusian roots with a global developer mindset.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let's build something interesting.</h2>
+        </div>
+        <a class="contact-link" href="mailto:stefan@example.com">stefan@example.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>(c) <span id="year"></span> Stefan Farmer. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

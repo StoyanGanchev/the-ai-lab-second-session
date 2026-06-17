@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract portrait for Stefan Farmer</title>
+  <desc id="desc">A polished abstract portrait with a desk, window, plants, and colorful geometric shapes.</desc>
+  <rect width="720" height="820" fill="#f7f2e8"/>
+  <rect x="72" y="68" width="576" height="684" rx="28" fill="#ffffff" stroke="#171717" stroke-width="6"/>
+  <rect x="112" y="108" width="496" height="244" rx="14" fill="#dbeafe" stroke="#171717" stroke-width="6"/>
+  <path d="M112 260h496" stroke="#171717" stroke-width="6"/>
+  <path d="M360 108v244" stroke="#171717" stroke-width="6"/>
+  <circle cx="500" cy="182" r="46" fill="#eab308" stroke="#171717" stroke-width="6"/>
+  <path d="M142 320c58-68 114-68 168 0 60-76 124-76 192 0" fill="none" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="360" cy="438" rx="116" ry="126" fill="#f9c7a5" stroke="#171717" stroke-width="6"/>
+  <path d="M256 422c12-88 58-136 136-144 68 20 104 68 112 144-38-34-82-48-132-42-44 4-82 18-116 42z" fill="#164e63" stroke="#171717" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="318" cy="454" r="9" fill="#171717"/>
+  <circle cx="402" cy="454" r="9" fill="#171717"/>
+  <path d="M330 510c22 18 48 18 72 0" fill="none" stroke="#171717" stroke-width="7" stroke-linecap="round"/>
+  <path d="M238 688c8-116 62-174 122-174s114 58 122 174" fill="#0f766e" stroke="#171717" stroke-width="6"/>
+  <path d="M298 530l62 82 62-82" fill="#ffffff" stroke="#171717" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="116" y="662" width="488" height="44" rx="8" fill="#171717"/>
+  <rect x="166" y="586" width="118" height="74" rx="10" fill="#be123c" stroke="#171717" stroke-width="6"/>
+  <path d="M186 586v-32c0-34 20-54 50-54" fill="none" stroke="#171717" stroke-width="6" stroke-linecap="round"/>
+  <rect x="452" y="548" width="86" height="114" rx="10" fill="#e8f0ec" stroke="#171717" stroke-width="6"/>
+  <path d="M494 548c-36-58-14-96 42-122 16 56 2 96-42 122z" fill="#0f766e" stroke="#171717" stroke-width="6"/>
+  <path d="M492 548c-50-34-58-76-24-128 42 34 50 76 24 128z" fill="#eab308" stroke="#171717" stroke-width="6"/>
+  <circle cx="126" cy="418" r="24" fill="#be123c" stroke="#171717" stroke-width="6"/>
+  <rect x="548" y="402" width="50" height="50" rx="8" fill="#164e63" stroke="#171717" stroke-width="6"/>
+  <path d="M116 742h488" stroke="#171717" stroke-width="6" stroke-linecap="round"/>
+</svg>
