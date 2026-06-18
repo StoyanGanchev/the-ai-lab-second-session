@@ -3,143 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best Dog Breeds</title>
-  <link rel="preconnect" href="https://images.unsplash.com">
+  <title>About Nika</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <header class="hero" id="top">
     <nav class="topbar" aria-label="Main navigation">
-      <a class="brand" href="#">Best Dog Breeds</a>
+      <a class="brand" href="#top">Nika</a>
       <div class="nav-links">
-        <a href="#breeds">Breeds</a>
-        <a href="#finder">Finder</a>
-        <a href="#care">Care</a>
+        <a href="#story">Story</a>
+        <a href="#loves">Loves</a>
+        <a href="#style">Style</a>
       </div>
     </nav>
 
-    <div class="hero-content">
-      <p class="eyebrow">A friendly guide for future dog people</p>
-      <h1>Find the breed that fits your life.</h1>
-      <p>
-        The best dog is not the fanciest one. It is the one whose energy,
-        size, training needs, and personality make everyday life better.
-      </p>
-      <a class="button" href="#breeds">Explore top breeds</a>
+    <div class="hero-grid">
+      <section class="hero-copy" aria-labelledby="hero-title">
+        <p class="eyebrow">Russia + Estonia roots, UAE chapter</p>
+        <h1 id="hero-title">A young creator with a soft spot for fashion, yarn, and cats.</h1>
+        <p>
+          Born on June 20, 2012, Nika is turning 14 with a head full of outfit
+          ideas, handmade textures, pastel colors, and tiny details that make
+          everything feel more personal.
+        </p>
+      </section>
+
+      <section class="profile-card" aria-label="Profile snapshot">
+        <div class="cat-portrait" aria-hidden="true">
+          <span class="cat-ear left"></span>
+          <span class="cat-ear right"></span>
+          <span class="cat-eye left"></span>
+          <span class="cat-eye right"></span>
+          <span class="cat-nose"></span>
+          <span class="cat-whiskers left"></span>
+          <span class="cat-whiskers right"></span>
+        </div>
+        <div>
+          <p class="card-label">Profile</p>
+          <h2>Cozy high-fashion energy</h2>
+          <p>Clean black lines, pastel pink moods, pastel green calm, and a handmade heart.</p>
+        </div>
+      </section>
     </div>
   </header>
 
   <main>
-    <section class="intro" aria-labelledby="intro-title">
+    <section class="intro-section" id="story" aria-labelledby="story-title">
       <div>
-        <p class="eyebrow">What makes a breed great?</p>
-        <h2 id="intro-title">Great dogs match the rhythm of their home.</h2>
+        <p class="eyebrow">About me</p>
+        <h2 id="story-title">A creative life stitched between cultures.</h2>
       </div>
       <p>
-        Some families need a patient companion for kids. Some owners want a
-        hiking partner. Others need a calmer apartment dog. These breeds are
-        loved for temperament, trainability, companionship, and adaptability.
+        Nika is originally from Russia and Estonia and is now based in the UAE.
+        Her world mixes northern softness, city sparkle, handmade patience, and
+        a playful love for all things cute and cat-shaped.
       </p>
     </section>
 
-    <section class="breed-grid" id="breeds" aria-label="Recommended dog breeds">
-      <article class="breed-card large">
-        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1200&q=80" alt="Golden Retriever sitting outdoors">
-        <div class="card-content">
-          <span class="tag">Best family dog</span>
-          <h2>Golden Retriever</h2>
-          <p>Warm, patient, playful, and eager to learn. Golden Retrievers are excellent for active families who want a loyal, affectionate companion.</p>
-        </div>
+    <section class="feature-strip" aria-label="Personal details">
+      <article>
+        <span class="mini-icon pin" aria-hidden="true"></span>
+        <h3>Based in the UAE</h3>
+        <p>Inspired by bright days, modern style, and a new creative chapter.</p>
       </article>
-
-      <article class="breed-card">
-        <img src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?auto=format&fit=crop&w=900&q=80" alt="Border Collie lying in grass">
-        <div class="card-content">
-          <span class="tag">Best for training</span>
-          <h2>Border Collie</h2>
-          <p>Brilliant and energetic. This breed thrives with games, jobs, agility, and owners who enjoy teaching new skills.</p>
-        </div>
+      <article>
+        <span class="mini-icon thread" aria-hidden="true"></span>
+        <h3>Born to make</h3>
+        <p>June 20 is her birthday, and every project feels like a celebration.</p>
       </article>
-
-      <article class="breed-card">
-        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80" alt="Beagle standing on a path">
-        <div class="card-content">
-          <span class="tag">Best cheerful buddy</span>
-          <h2>Beagle</h2>
-          <p>Curious, funny, and social. Beagles are compact, friendly dogs with big personalities and even bigger noses.</p>
-        </div>
-      </article>
-
-      <article class="breed-card">
-        <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?auto=format&fit=crop&w=900&q=80" alt="French Bulldog looking at the camera">
-        <div class="card-content">
-          <span class="tag">Best apartment pal</span>
-          <h2>French Bulldog</h2>
-          <p>Small, charming, and lower exercise than many breeds. Frenchies are happiest close to their people.</p>
-        </div>
-      </article>
-
-      <article class="breed-card">
-        <img src="https://images.unsplash.com/photo-1601979031925-424e53b6caaa?auto=format&fit=crop&w=900&q=80" alt="Cavalier King Charles Spaniel on a blanket">
-        <div class="card-content">
-          <span class="tag">Best gentle lap dog</span>
-          <h2>Cavalier Spaniel</h2>
-          <p>Sweet, soft-natured, and affectionate. Cavaliers are wonderful for homes that want a gentle companion.</p>
-        </div>
-      </article>
-
-      <article class="breed-card">
-        <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=900&q=80" alt="Labrador Retriever in a field">
-        <div class="card-content">
-          <span class="tag">Best all-rounder</span>
-          <h2>Labrador Retriever</h2>
-          <p>Outgoing, sturdy, and famously friendly. Labs are a classic choice for active households and first-time owners.</p>
-        </div>
+      <article>
+        <span class="mini-icon heart" aria-hidden="true"></span>
+        <h3>Cat obsessed</h3>
+        <p>Cats are the moodboard: graceful, cozy, dramatic, and very cute.</p>
       </article>
     </section>
 
-    <section class="finder" id="finder" aria-labelledby="finder-title">
-      <div class="finder-copy">
-        <p class="eyebrow">Quick breed finder</p>
-        <h2 id="finder-title">Choose by lifestyle, not just looks.</h2>
-        <p>Start with your daily routine, then pick a breed that can be happy inside that routine.</p>
+    <section class="passions" id="loves" aria-labelledby="loves-title">
+      <div class="section-heading">
+        <p class="eyebrow">Favorite things</p>
+        <h2 id="loves-title">Creative hobbies with a handmade signature.</h2>
       </div>
-      <div class="finder-list">
-        <div>
-          <strong>Busy apartment life</strong>
-          <span>French Bulldog, Cavalier Spaniel, Greyhound</span>
-        </div>
-        <div>
-          <strong>Active outdoor home</strong>
-          <span>Labrador Retriever, Border Collie, Australian Shepherd</span>
-        </div>
-        <div>
-          <strong>Families with kids</strong>
-          <span>Golden Retriever, Labrador Retriever, Beagle</span>
-        </div>
-        <div>
-          <strong>First-time dog owner</strong>
-          <span>Labrador Retriever, Cavalier Spaniel, Poodle</span>
-        </div>
+
+      <div class="passion-grid">
+        <article class="passion-card">
+          <div class="needle-art" aria-hidden="true"></div>
+          <span>Sewing</span>
+          <h3>Turning fabric into ideas</h3>
+          <p>She loves the quiet focus of sewing: choosing fabric, shaping details, and making something real by hand.</p>
+        </article>
+
+        <article class="passion-card pink">
+          <div class="yarn-art" aria-hidden="true">
+            <span></span>
+          </div>
+          <span>Crochet</span>
+          <h3>Soft loops, cute textures</h3>
+          <p>Crochet brings cozy patterns, tiny accessories, and the joy of building something stitch by stitch.</p>
+        </article>
+
+        <article class="passion-card green">
+          <div class="hanger-art" aria-hidden="true"></div>
+          <span>Fashion design</span>
+          <h3>Dreaming up outfits</h3>
+          <p>Designing clothes is where her imagination gets bold: silhouettes, color palettes, and playful styling.</p>
+        </article>
       </div>
     </section>
 
-    <section class="care" id="care" aria-labelledby="care-title">
-      <p class="eyebrow">Before you choose</p>
-      <h2 id="care-title">A happy dog needs more than a beautiful breed.</h2>
-      <div class="care-grid">
-        <article>
-          <h3>Time</h3>
-          <p>Plan for walks, play, training, grooming, vet visits, and quiet companionship every day.</p>
-        </article>
-        <article>
-          <h3>Training</h3>
-          <p>Kind, consistent training turns natural breed traits into confidence and good manners.</p>
-        </article>
-        <article>
-          <h3>Health</h3>
-          <p>Research common breed health issues and choose responsible breeders or adoption groups.</p>
-        </article>
+    <section class="style-board" id="style" aria-labelledby="style-title">
+      <div class="style-copy">
+        <p class="eyebrow">Personal vibe</p>
+        <h2 id="style-title">Stylish, sweet, clean, and a little catwalk-coded.</h2>
+        <p>
+          The mood is sleek black with pastel pink and green accents: elegant
+          enough for fashion sketches, soft enough for yarn baskets and sleepy cats.
+        </p>
+      </div>
+
+      <div class="mood-grid" aria-label="Mood board">
+        <div class="mood-tile black">
+          <span>Black</span>
+          <strong>sleek</strong>
+        </div>
+        <div class="mood-tile pink">
+          <span>Pastel pink</span>
+          <strong>sweet</strong>
+        </div>
+        <div class="mood-tile green">
+          <span>Pastel green</span>
+          <strong>fresh</strong>
+        </div>
+        <div class="mood-tile sketch">
+          <div class="dress-art" aria-hidden="true"></div>
+          <strong>designer mind</strong>
+        </div>
       </div>
     </section>
   </main>
