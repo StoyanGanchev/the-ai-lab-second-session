@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #25312d;
+  background: #f7f3ec;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.hero {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(23, 31, 28, 0.82), rgba(23, 31, 28, 0.26)),
+    url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1800&q=80") center/cover;
+}
+
+.topbar {
+  width: min(1160px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-links a {
+  opacity: 0.86;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.hero-content {
+  width: min(1160px, calc(100% - 40px));
+  margin: auto;
+  padding: 72px 0 110px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #d9893d;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.hero .eyebrow {
+  color: #ffd38d;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 760px;
+  margin-bottom: 22px;
+  font-size: clamp(46px, 8vw, 92px);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.hero-content p:not(.eyebrow) {
+  max-width: 560px;
+  margin-bottom: 32px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 6px;
+  background: #f2a03d;
+  color: #1e201b;
+  font-weight: 800;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  overflow: hidden;
+}
+
+.intro,
+.finder,
+.care {
+  width: min(1160px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 48px;
+  padding: 72px 0 42px;
+  align-items: end;
+}
+
+.intro h2,
+.finder h2,
+.care h2 {
+  margin-bottom: 0;
+  color: #1c3027;
+  font-size: clamp(30px, 5vw, 56px);
+  line-height: 1.02;
+  letter-spacing: 0;
+}
+
+.intro > p,
+.finder-copy p {
+  color: #58645d;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.breed-grid {
+  width: min(1160px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 22px 0 82px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.breed-card {
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(37, 49, 45, 0.1);
+  border-radius: 8px;
+  background: #fffdf8;
+  box-shadow: 0 18px 45px rgba(58, 54, 46, 0.08);
+}
+
+.breed-card.large {
+  grid-column: span 2;
+}
+
+.breed-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.breed-card.large img {
+  height: 330px;
+}
+
+.card-content {
+  padding: 22px;
+}
+
+.tag {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #b86420;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card-content h2 {
+  margin-bottom: 12px;
+  color: #1c3027;
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.card-content p,
+.care p,
+.finder-list span {
+  color: #5c665f;
+  line-height: 1.55;
+}
+
+.finder {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 42px;
+  padding: 62px 0;
+  border-top: 1px solid rgba(37, 49, 45, 0.14);
+  border-bottom: 1px solid rgba(37, 49, 45, 0.14);
+}
+
+.finder-list {
+  display: grid;
+  gap: 14px;
+}
+
+.finder-list div {
+  padding: 18px 20px;
+  border-radius: 8px;
+  background: #fffdf8;
+  border-left: 5px solid #72a07a;
+}
+
+.finder-list strong,
+.finder-list span {
+  display: block;
+}
+
+.finder-list strong {
+  margin-bottom: 6px;
+  color: #1c3027;
+}
+
+.care {
+  padding: 70px 0 88px;
+}
+
+.care h2 {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.care-grid article {
+  padding: 24px;
+  border-radius: 8px;
+  background: #293f34;
+  color: #fff;
+}
+
+.care-grid h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.care-grid p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+@media (max-width: 850px) {
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero {
+    min-height: 86vh;
+    background:
+      linear-gradient(180deg, rgba(23, 31, 28, 0.88), rgba(23, 31, 28, 0.38)),
+      url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80") center/cover;
+  }
+
+  .hero-content {
+    padding: 58px 0 82px;
+  }
+
+  .intro,
+  .finder,
+  .care-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .breed-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .breed-card.large {
+    grid-column: span 1;
+  }
+
+  .breed-card,
+  .breed-card.large {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .nav-links {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .hero-content p:not(.eyebrow),
+  .intro > p,
+  .finder-copy p {
+    font-size: 17px;
+  }
+
+  .breed-card img,
+  .breed-card.large img {
+    height: 230px;
+  }
+}
